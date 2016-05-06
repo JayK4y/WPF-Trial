@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2e8fe2aeb0cb4dbf83b6b0163f87f9cc" Name="Diagram1">
+        <EntityTypeShape EntityType="NWindModel.Category" Width="1.5" PointX="3.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Customer" Width="1.5" PointX="6" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Employee" Width="1.5" PointX="0.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Order" Width="1.5" PointX="3" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Product" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Region" Width="1.5" PointX="3.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Shipper" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Supplier" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Territory" Width="1.5" PointX="6" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Alphabetical_list_of_product" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Category_Sales_for_1997" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Current_Product_List" Width="1.5" PointX="8.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Customer_and_Suppliers_by_City" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.CustomerCustomerDemo" Width="1.5" PointX="10.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.CustomerDemographic" Width="1.5" PointX="10.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Order_Detail" Width="1.5" PointX="5.25" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Order_Details_Extended" Width="1.5" PointX="8.25" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Order_Subtotal" Width="1.5" PointX="5.25" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Orders_Qry" Width="1.5" PointX="8.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Product_Sales_for_1997" Width="1.5" PointX="10.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Products_Above_Average_Price" Width="1.5" PointX="10.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Products_by_Category" Width="1.5" PointX="12.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Sales_by_Category" Width="1.5" PointX="6" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Sales_Totals_by_Amount" Width="1.5" PointX="5.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Summary_of_Sales_by_Quarter" Width="1.5" PointX="5.25" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NWindModel.Summary_of_Sales_by_Year" Width="1.5" PointX="5.25" PointY="25.5" IsExpanded="true" />
+        <AssociationConnector Association="NWindModel.FK_Alphabetical_list_of_products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Sales_by_Category_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Orders_Qry_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Orders_Qry_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Orders_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Order_Details_Extended_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Order_Details_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Order_Subtotals_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Orders_Qry_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Sales_Totals_by_Amount_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Summary_of_Sales_by_Quarter_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Summary_of_Sales_by_Year_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Alphabetical_list_of_products_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Current_Product_List_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Order_Details_Extended_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Order_Details_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Territories_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.FK_Alphabetical_list_of_products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="NWindModel.EmployeeTerritories" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
