@@ -7,7 +7,7 @@ using System.Data;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Windows.Data;
-using Northwind.Application.CustomerService;
+using Northwind.Model;
 using Northwind.Application;
 
 

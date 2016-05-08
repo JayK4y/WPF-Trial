@@ -83,6 +83,10 @@
       <Project>{2a95c7d8-b364-409a-a613-cdef555adc7e}</Project>
       <Name>Northwind.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Northwind.Model\Northwind.Model.csproj">
+      <Project>{5325d33a-78c0-41de-9aab-74492ba3c1fb}</Project>
+      <Name>Northwind.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Northwind.ViewModel\Northwind.ViewModel.csproj">
       <Project>{17e562f8-9d97-42a2-b4ec-2665ff50aa32}</Project>
       <Name>Northwind.ViewModel</Name>

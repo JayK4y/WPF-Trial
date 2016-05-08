@@ -9,7 +9,7 @@ namespace Northwind.Service
 {
 	public class CustomerService : ICustomerService
 	{
-		private readonly NorthwindEntities db = new NorthwindEntities();
+		private readonly NWindEntities db = new NWindEntities();
 
 		public IList<Northwind.Service.Customer> GetCustomers()
 		{

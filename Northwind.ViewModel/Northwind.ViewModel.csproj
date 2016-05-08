@@ -63,6 +63,14 @@
       <Project>{bdf996fa-417b-4527-9469-2ecbf4081eee}</Project>
       <Name>Northwind.Application</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Northwind.Data\Northwind.Data.csproj">
+      <Project>{2a95c7d8-b364-409a-a613-cdef555adc7e}</Project>
+      <Name>Northwind.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Northwind.Model\Northwind.Model.csproj">
+      <Project>{5325d33a-78c0-41de-9aab-74492ba3c1fb}</Project>
+      <Name>Northwind.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Northwind.Service\Northwind.Service.csproj">
       <Project>{df2f647c-1530-4980-aff2-f32a8c21a13c}</Project>
       <Name>Northwind.Service</Name>

@@ -5,8 +5,8 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
       <Schema Namespace="NWindModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Alphabetical list of products' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Alphabetical list of products' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Alphabetical list of products">
           <Key>
             <PropertyRef Name="ProductID" />
@@ -35,8 +35,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="Description" Type="ntext" />
           <Property Name="Picture" Type="image" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Category Sales for 1997' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Category Sales for 1997' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Category Sales for 1997">
           <Key>
             <PropertyRef Name="CategoryName" />
@@ -44,8 +44,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="CategoryName" Type="nvarchar" MaxLength="15" Nullable="false" />
           <Property Name="CategorySales" Type="smallmoney" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Current Product List' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Current Product List' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Current Product List">
           <Key>
             <PropertyRef Name="ProductID" />
@@ -54,8 +54,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="ProductID" Type="int" Nullable="false" />
           <Property Name="ProductName" Type="nvarchar" MaxLength="40" Nullable="false" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Customer and Suppliers by City' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Customer and Suppliers by City' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Customer and Suppliers by City">
           <Key>
             <PropertyRef Name="CompanyName" />
@@ -66,8 +66,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="ContactName" Type="nvarchar" MaxLength="30" />
           <Property Name="Relationship" Type="varchar" MaxLength="9" Nullable="false" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.CustomerCustomerDemo' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.CustomerCustomerDemo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="CustomerCustomerDemo">
           <Key>
             <PropertyRef Name="CustomerID" />
@@ -76,8 +76,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="CustomerID" Type="nchar" MaxLength="5" Nullable="false" />
           <Property Name="CustomerTypeID" Type="nchar" MaxLength="10" Nullable="false" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.CustomerDemographics' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.CustomerDemographics' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="CustomerDemographics">
           <Key>
             <PropertyRef Name="CustomerTypeID" />
@@ -124,8 +124,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="ReportsTo" Type="int" />
           <Property Name="PhotoPath" Type="nvarchar" MaxLength="255" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.EmployeeTerritories' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.EmployeeTerritories' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="EmployeeTerritories">
           <Key>
             <PropertyRef Name="EmployeeID" />
@@ -134,8 +134,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="EmployeeID" Type="int" Nullable="false" />
           <Property Name="TerritoryID" Type="nvarchar" MaxLength="20" Nullable="false" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Order Details' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Order Details' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Order Details">
           <Key>
             <PropertyRef Name="OrderID" />
@@ -150,8 +150,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="Quantity" Type="smallint" Nullable="false" />
           <Property Name="Discount" Type="real" Nullable="false" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Order Details Extended' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Order Details Extended' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Order Details Extended">
           <Key>
             <PropertyRef Name="OrderID" />
@@ -169,8 +169,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="Discount" Type="real" Nullable="false" />
           <Property Name="ExtendedPrice" Type="smallmoney" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Order Subtotals' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Order Subtotals' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Order Subtotals">
           <Key>
             <PropertyRef Name="OrderID" />
@@ -197,8 +197,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="ShipPostalCode" Type="nvarchar" MaxLength="10" />
           <Property Name="ShipCountry" Type="nvarchar" MaxLength="15" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Orders Qry' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Orders Qry' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Orders Qry">
           <Key>
             <PropertyRef Name="OrderID" />
@@ -225,8 +225,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="PostalCode" Type="nvarchar" MaxLength="10" />
           <Property Name="Country" Type="nvarchar" MaxLength="15" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Product Sales for 1997' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Product Sales for 1997' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Product Sales for 1997">
           <Key>
             <PropertyRef Name="CategoryName" />
@@ -252,8 +252,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="Discontinued" Type="bit" Nullable="false" />
           <Property Name="EAN13" Type="text" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Products Above Average Price' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Products Above Average Price' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Products Above Average Price">
           <Key>
             <PropertyRef Name="ProductName" />
@@ -261,8 +261,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="ProductName" Type="nvarchar" MaxLength="40" Nullable="false" />
           <Property Name="UnitPrice" Type="smallmoney" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Products by Category' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Products by Category' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Products by Category">
           <Key>
             <PropertyRef Name="CategoryName" />
@@ -275,8 +275,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="UnitsInStock" Type="smallint" />
           <Property Name="Discontinued" Type="bit" Nullable="false" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6013: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Quarterly Orders' ist kein Primärschlüssel definiert, und es konnte kein gültiger Primärschlüssel abgeleitet werden. Diese Tabelle/Sicht wurde ausgeschlossen. Wenn Sie die Entität verwenden möchten, müssen Sie das Schema überprüfen, die richtigen Schlüssel hinzufügen und die Auskommentierung aufheben.
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Quarterly Orders' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
         <EntityType Name="Quarterly Orders">
           <Property Name="CustomerID" Type="nchar" MaxLength="5" />
           <Property Name="CompanyName" Type="nvarchar" MaxLength="40" />
@@ -290,8 +290,8 @@ Warnung 6013: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="RegionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="RegionDescription" Type="nchar" MaxLength="50" Nullable="false" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Sales by Category' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Sales by Category' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Sales by Category">
           <Key>
             <PropertyRef Name="CategoryID" />
@@ -303,8 +303,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="ProductName" Type="nvarchar" MaxLength="40" Nullable="false" />
           <Property Name="ProductSales" Type="smallmoney" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Sales Totals by Amount' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Sales Totals by Amount' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Sales Totals by Amount">
           <Key>
             <PropertyRef Name="OrderID" />
@@ -323,8 +323,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="CompanyName" Type="nvarchar" MaxLength="40" Nullable="false" />
           <Property Name="Phone" Type="nvarchar" MaxLength="24" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Summary of Sales by Quarter' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Summary of Sales by Quarter' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Summary of Sales by Quarter">
           <Key>
             <PropertyRef Name="OrderID" />
@@ -333,8 +333,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
           <Property Name="OrderID" Type="int" Nullable="false" />
           <Property Name="Subtotal" Type="smallmoney" />
         </EntityType>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Summary of Sales by Year' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Summary of Sales by Year' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Summary of Sales by Year">
           <Key>
             <PropertyRef Name="OrderID" />
@@ -584,8 +584,8 @@ Warnung 6002: Für Tabelle/Sicht 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PR
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <!--Während der Generierung sind Fehler aufgetreten:
-Fehler 6004: Auf die Tabelle 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\NORTHWIND\NORTHWIND.DATA\NWIND.MDF.dbo.Quarterly Orders' wurde durch eine Beziehung verwiesen, die jedoch nicht gefunden wurde.
+        <!--Errors Found During Generation:
+error 6004: The table 'C:\USERS\JAKOB\SOURCE\REPOS\WPF-TRIAL\NORTHWIND.DATA\NWIND.MDF.dbo.Quarterly Orders' is referenced by a relationship, but cannot be found.
         <Association Name="FK_Quarterly Orders_Customers" />-->
         <Association Name="FK_Sales by Category_Categories">
           <End Role="Categories" Type="Self.Categories" Multiplicity="1" />
@@ -1521,7 +1521,7 @@ Fehler 6004: Auf die Tabelle 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJEC
           <End Role="Employees" Type="Self.Employee" Multiplicity="*" />
           <End Role="Territories" Type="Self.Territory" Multiplicity="*" />
         </Association>
-        <EntityContainer Name="NorthwindEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="NWindEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Categories" EntityType="Self.Category" />
           <EntitySet Name="Customers" EntityType="Self.Customer" />
           <EntitySet Name="Employees" EntityType="Self.Employee" />
@@ -1642,7 +1642,7 @@ Fehler 6004: Auf die Tabelle 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJEC
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="NWindModelStoreContainer" CdmEntityContainer="NorthwindEntities">
+        <EntityContainerMapping StorageEntityContainer="NWindModelStoreContainer" CdmEntityContainer="NWindEntities">
           <EntitySetMapping Name="Categories">
             <EntityTypeMapping TypeName="NWindModel.Category">
               <MappingFragment StoreEntitySet="Categories">
@@ -1983,7 +1983,7 @@ Fehler 6004: Auf die Tabelle 'C:\USERS\JAKOB\DOCUMENTS\VISUAL STUDIO 2015\PROJEC
         <DesignerProperty Name="EnablePluralization" Value="true" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
         <DesignerProperty Name="UseLegacyProvider" Value="false" />
-        <DesignerProperty Name="CodeGenerationStrategy" Value="Kein" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
       </DesignerInfoPropertySet>
     </Options>
     <!-- Diagram content (shape and connector positions) -->

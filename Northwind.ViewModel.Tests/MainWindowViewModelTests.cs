@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rhino.Mocks;
-using Northwind.Application.CustomerService;
+using Northwind.Model;
 using Northwind.Application;
 using System.Windows.Data;
 using System.Linq;

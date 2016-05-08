@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rhino.Mocks;
 using Northwind.Application;
-using Northwind.Application.CustomerService;
+using Northwind.Model;
 
 namespace Northwind.ViewModel.Tests
 {
