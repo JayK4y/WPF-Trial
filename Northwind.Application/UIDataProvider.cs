@@ -9,16 +9,25 @@ namespace Northwind.Application
 {
 	public class UIDataProvider : IUIDataProvider
 	{
-		private readonly CustomerServiceClient _customerServiceClient = new CustomerServiceClient();
+        private IList<Model.Customer> _customers;
+
+		private readonly ICustomerService _customerServiceClient;
+
+        public UIDataProvider(ICustomerService customerService)
+        {
+            _customerServiceClient = customerService;
+        }
 
 		public IList<Model.Customer> GetCustomers()
 		{
-            return _customerServiceClient.GetCustomers().Select(c => new Model.Customer().Update(c)).ToList();
+            return _customers ?? (_customers = _customerServiceClient.GetCustomers()
+                .Select(c => CustomerTranslator.Instance.CreateModel(c)).ToList());
 		}
 
 		public Model.Customer GetCustomer(string customerID)
 		{
-            return new Model.Customer().Update(_customerServiceClient.GetCustomer(customerID));
+            return CustomerTranslator.Instance.UpdateModel(
+                _customers.First(c => c.CustomerID == customerID), _customerServiceClient.GetCustomer(customerID));
 		}
 	}
 }
